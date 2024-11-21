@@ -1,0 +1,66 @@
+.header{
+  background: #5bc0de;
+}
+
+.carousel-item{
+  position: relative;
+  z-index: 1;
+  max-height: 700px;
+}
+
+.card-img-top{
+  max-height: 290px;
+}
+
+.boton-edit{
+  margin-right: 50px;
+  color: #fafafa;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid #fafafa;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+}
+
+.boton-edit:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.dezpliegue-edit{
+  position: absolute;
+  right: 50px;
+}
+
+.dezpliegue-edit ul{
+  list-style: none;
+  padding: 0;
+}
+
+.edit{
+  background:  #f1f3f5;
+  border: 2px black solid;
+  width: 280px;
+  position: absolute;
+  z-index: 3;
+  top: 50px;
+  right: -45px;
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.edit p{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 0;
+}
+
+
+.eleccion{
+  border: none;
+  background: transparent;
+  margin: 10px;
+}
