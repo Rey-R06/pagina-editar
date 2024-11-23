@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body id="body">
     <header>
     <nav class="navbar bg-body-tertiary p-0">
         <div id="header" class="container-fluid pe-0">
@@ -20,12 +20,13 @@
           <div class="dezpliegue-edit">
              <div class="edit" id="edit">
               <ul>
-                <li class="conter-elecc">
+                <li>
                   <p class="bg-info">color principal</p>
-                  <button class="eleccion" onclick="cambio(1)"><img src="/img/azul.webp" width="30"></button>
-                  <button class="eleccion" onclick="cambio(2)"><img src="/img/Punto_amarillo.png" width="30"></button>
-                  <button class="eleccion" onclick="cambio(3)"><img src="/img/red.webp" width="30"></button>
-                  <button class="eleccion" onclick="cambio(4)"><img src="/img/green.png" width="30"></button>
+                  <input type="color" id="selector">
+                </li>
+                <li>
+                  <p class="bg-info">color secundario</p>
+                  <input type="color" id="selector2">
                 </li>
               </ul>
              </div>
@@ -71,7 +72,7 @@
 
     <div class="container-fluid text-light">
 
-    <div class="row bg-light text-dark justify-content-center gap-4">
+    <div class="row text-dark justify-content-center gap-4">
 
         <div class="col-12 col-md-6 col-lg-4 px-4 mt-4 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
@@ -123,7 +124,7 @@
 
     </main>
   <footer id="footer" class="text-white mt-5">
-      <div class="container-fluid text-center py-4">
+      <div class="container-fluid text-center text-dark py-4">
           <h5>Mi Sitio Web</h5>
           <p>El mejor lugar para aprender y crecer.</p>
       </div>

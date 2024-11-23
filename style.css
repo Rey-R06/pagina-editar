@@ -13,7 +13,7 @@
 }
 
 .boton-edit{
-  margin-right: 50px;
+  margin-right: 35px;
   color: #fafafa;
   text-transform: uppercase;
   border-radius: 10px;
@@ -33,11 +33,6 @@
   right: 50px;
 }
 
-.dezpliegue-edit ul{
-  list-style: none;
-  padding: 0;
-}
-
 .edit{
   background:  #f1f3f5;
   border: 2px black solid;
@@ -48,7 +43,22 @@
   right: -45px;
   opacity: 0;
   visibility: hidden;
+}
 
+.edit ul{
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edit li{
+  text-align: center;
+}
+
+.edit input{
+  margin: 20px 0;
+  text-align: center;
 }
 
 .edit p{
@@ -56,11 +66,4 @@
     font-size: 1.5rem;
     padding: 5px;
     margin: 0;
-}
-
-
-.eleccion{
-  border: none;
-  background: transparent;
-  margin: 10px;
 }
